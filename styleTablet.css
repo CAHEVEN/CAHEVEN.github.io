@@ -9,6 +9,9 @@
     .frame {
         display: none;
     }
+    
+
+    
 
     .frame-tablet {
         background-color: #fffcf0;
@@ -66,9 +69,134 @@
     }
 
 
+    
+    
+
+
+
+    .frame-mobile {
+        background-color: #fffcf0;
+        display: flex;
+        margin: 0;
+        flex-direction: row;
+        /*justify-content: center;*/
+        width: 100%;
+        height: 100%;
+    }
+
+
 
 
     /*mision*/
+    .mision-wrapper-mobile {
+    height: 100vh;
+    top: 100vh;
+    background-color: #fffcf0;
+    position: absolute;
+    width: 100vw;
+    left: 0;
+  }
+  
+  .mision-mobile {
+    position: relative;
+    margin: auto;
+    width: 100vw;
+    height: 100vh;
+    top: 50px;
+  }
+  
+  .overlap-mision-mobile {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: #0505061a;
+  }
+  
+   .subTitulo-1-mobile {
+    position: absolute;
+    width: 50vw;
+    top: 23px;
+    left: 5vw;
+    -webkit-text-stroke: 1px #000000;
+    font-family: "Lato-Medium", Helvetica;
+    font-weight: 500;
+    color: #3282ec;
+    font-size: 2.5em;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+   .text-1-mobile{
+    position: absolute;
+    width: 90vw;
+    top: 95px;
+    left: 5vw;
+    font-family: "Lato-Medium", Helvetica;
+    font-weight: 500;
+    color: #0d5eaf;
+    font-size: 1.4em;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  hr {
+    border: none; 
+    height: 1px;  
+    background-color: #000000; 
+    color: #000000;   
+  }
+
+   .line-mobile {
+    position: absolute;
+    margin: 0px;
+    width: 100vw;
+    height: 1px;
+    top: 75px;
+    left: 0;
+    object-fit: cover;
+  }
+
+
+  /*vision*/
+   .overlap-group-vision-mobile {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 200vh;
+    left: 0;
+  }
+  
+   .vision-wrapper-mobile{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: #fffcf0;
+  }
+  
+   .vision-mobile {
+    position: relative;
+    margin: auto;
+    width: 100vw;
+    height: 80vh;
+    top: 10vh;
+  }
+  
+   .overlap-vision-mobile {
+    position: relative;
+    width: 100vw;
+    height: 80vh;
+    background-color: #0505061a;
+  }
+  
+   .line-2-mobile {
+    position: absolute;
+    width: 100vw;
+    top: 75px;
+    left: 0;
+  }
+
 
 
 }
