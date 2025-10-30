@@ -391,6 +391,10 @@
     width: 1024px;
     top: 110px;
     left: 0;
+    border: none; 
+    height: 1px;  
+    background-color: #000000; 
+    color: #000000;
   }
 
   
