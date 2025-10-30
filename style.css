@@ -22,6 +22,11 @@
 
 
   /*banner*/
+
+  .label{
+    display: none;
+  }
+
   .frame .banner-wrapper {
     height: 720px;
     top: 0;
@@ -66,6 +71,10 @@
     line-height: normal;
     opacity: 10;
   }
+
+  .frame .bienvenidos-m{
+    display: none;
+  }
   
 
 
@@ -107,6 +116,10 @@
     height: 91px;
     top: 0px;
     left: 0;
+  }
+
+  .header .logo-camara-mobile {
+    display: none;
   }
   
   .header .FEDEUROPA {
@@ -382,12 +395,17 @@
 
   
   /*afiliados*/
+  #carouselExampleControls{
+    display: none;
+  }
+
   .frame .overlap-group-afiliados {
     height: 720px;
     top: 2160px;
     position: absolute;
     width: 100%;
     left: 0;
+    
   }
   
   .frame .afiliados-wrapper {
