@@ -176,41 +176,42 @@
   .frame .mision {
     position: relative;
     margin: auto;
-    width: 1024px;
+    width: 100%;
     height: 637px;
     top: 50px;
   }
   
   .frame .overlap-mision {
     position: relative;
-    width: 1024px;
+    width: 100%;
     height: 645px;
     background-color: #0505061a;
   }
   
   .frame .subTitulo-1 {
     position: absolute;
-    width: 536px;
-    top: 23px;
-    left: 47px;
-    -webkit-text-stroke: 1px #000000;
+    width: 100%;
+    top: 30px;
+    left: 0px;
+    -webkit-text-stroke: 0px #000000;
     font-family: "Lato-Medium", Helvetica;
     font-weight: 500;
     color: #3282ec;
-    font-size: 64px;
+    font-size: 32px;
     letter-spacing: 0;
     line-height: normal;
+    text-align: center;
   }
   
   .frame .text-1{
     position: absolute;
-    width: 980px;
-    top: 139px;
+    width: calc(100% - 40px);
+    top: 115px;
     left: 20px;
     font-family: "Lato-Medium", Helvetica;
     font-weight: 500;
     color: #0d5eaf;
-    font-size: 32px;
+    font-size: 21px;
     letter-spacing: 0;
     line-height: normal;
   }
@@ -225,9 +226,9 @@
   .frame .line {
     position: absolute;
     margin: 0px;
-    width: 1024px;
+    width: 100%;
     height: 1px;
-    top: 120px;
+    top: 90px;
     left: 0;
     object-fit: cover;
   }
@@ -254,23 +255,28 @@
   .frame .vision {
     position: relative;
     margin: auto;
-    width: 1024px;
+    width: 100%;
     height: 601px;
     top: 59px;
   }
   
   .frame .overlap-vision {
     position: relative;
-    width:1024px;
+    width:100%;
     height: 601px;
     background-color: #0505061a;
   }
   
   .frame .line-2 {
     position: absolute;
-    width: 1024px;
-    top: 110px;
+    width: 100%;
+    top: 70px;
     left: 0;
+  }
+
+  #text-vision{
+    top: 145px;
+
   }
 
   
@@ -293,21 +299,21 @@
   .frame .afiliados {
     position: relative;
     margin: auto;
-    width: 1024px;
+    width: 100%;
     height: 599px;
     top: 41px;
   }
   
   .frame .overlap-2 {
     position: relative;
-    width: 1024px;
+    width: 100%;
     height: 599px;
     background-color: #fffcf0;
   }
   
   .frame .div-wrapper {
     position: absolute;
-    width: 1024px;
+    width: 100%;
     height: 123px;
     top: 0;
     left: 0;
@@ -317,16 +323,19 @@
   .frame .text-wrapper-6 {
     position: absolute;
     width: 438px;
-    top: 22px;
-    left: 47px;
-    -webkit-text-stroke: 1px #000000;
+    top: 40px;
+    left: 0px;
+    -webkit-text-stroke: 0px #000000;
     font-family: "Lato-Medium", Helvetica;
     font-weight: 500;
     color: #fffcf0;
-    font-size: 64px;
+    font-size: 40px;
     letter-spacing: 0;
     line-height: normal;
+    text-align: center;
   }
+
+
   
   .frame .group-2 {
     position: relative;
@@ -334,6 +343,7 @@
     width: 1024px;
     height: 453px;
     top: 146px;
+    display: none;
   }
 
 
