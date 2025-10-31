@@ -165,7 +165,7 @@
   /*mision*/
 
   .frame .mision-wrapper {
-    height: 720px;
+    height: 760px;
     top: 720px;
     background-color: #fffcf0;
     position: absolute;
@@ -184,7 +184,7 @@
   .frame .overlap-mision {
     position: relative;
     width: 100%;
-    height: 645px;
+    height: 680px;
     background-color: #0505061a;
   }
   
@@ -239,7 +239,7 @@
     position: absolute;
     width: 100%;
     height: 720px;
-    top: 1440px;
+    top: 1480px;
     left: 0;
   }
   
@@ -283,7 +283,7 @@
   /*afiliados*/
   .frame .overlap-group-afiliados {
     height: 720px;
-    top: 2160px;
+    top: 2200px;
     position: absolute;
     width: 100%;
     left: 0;
@@ -322,7 +322,7 @@
 
   .frame .text-wrapper-6 {
     position: absolute;
-    width: 438px;
+    width: 100%;
     top: 40px;
     left: 0px;
     -webkit-text-stroke: 0px #000000;
@@ -336,7 +336,14 @@
   }
 
 
-  
+  #carouselExampleControls{
+    display: block;
+    
+    /*position: absolute;
+    top: 2346px;*/
+  }
+
+
   .frame .group-2 {
     position: relative;
     margin: auto;
@@ -558,7 +565,7 @@
   /*footer*/
   .frame .footer-wrapper {
     height: 194px;
-    top: 2880px;
+    top: 2920px;
     overflow: hidden;
     position: absolute;
     width: 100%;
