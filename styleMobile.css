@@ -282,7 +282,7 @@
   
   /*afiliados*/
   .frame .overlap-group-afiliados {
-    height: 720px;
+    height: 920px;
     top: 2200px;
     position: absolute;
     width: 100%;
@@ -291,7 +291,7 @@
   
   .frame .afiliados-wrapper {
     position: relative;
-    height: 721px;
+    height: 921px;
     top: -1px;
     background-color: #fffcf0;
   }
@@ -337,7 +337,7 @@
 
 
   #carouselExampleControls{
-    display: block;
+    display: none;
     
     /*position: absolute;
     top: 2346px;*/
@@ -350,14 +350,13 @@
     width: 1024px;
     height: 453px;
     top: 146px;
-    display: none;
   }
 
 
   .frame .icon-box{
     position: inherit;
-    width: 123px;
-    height: 123px;
+    width: 100px;
+    height: 100px;
     background-color: #fffcf0;
     border-radius: var(--shape-corner-small);
     box-shadow: 0px 4px 10px #00000040;
@@ -366,10 +365,10 @@
 
   .frame .img-2 {
     position: inherit;
-    width: 90px;
-    height: 90px;
-    top: 17px;
-    left: 17px;
+    width: 80px;
+    height: 80px;
+    top: 10px;
+    left: 10px;
     object-fit: cover;
   }
 
@@ -405,158 +404,163 @@
 
   .frame .hilos-cronos-CA-wrapper {
     position: absolute;
-    width: 123px;
-    height: 123px;
-    top: 330px;
-    left: 786px;
+    top: 600px;
+    left: 140px;
+    width: auto;
+    width: auto;
   }
 
   
-  
+
+
+
+
+
   .frame .overlap-3 {
     position: absolute;
-    width: 123px;
-    height: 123px;
-    top: 330px;
-    left: 618px;
-    
+    top: 480px;
+    left: 260px;
+    width: auto;
+    width: auto;
   }
   
   .frame .COSECHA-PERISSOS-wrapper {
     position: absolute;
-    width: 123px;
-    height: 123px;
-    top: 330px;
-    left: 450px;
+    top: 480px;
+    left: 140px;
+    width: auto;
+    width: auto;
   }
-  
-  
   
   .frame .logo-aegean-marine-wrapper {
     position: absolute;
-    width: 123px;
-    height: 123px;
-    top: 330px;
-    left: 282px;
+    top: 480px;
+    left: 20px;
+    width: auto;
+    width: auto;
   }
   
   
   
+
+
+
+
   .frame .COMERCIALIZADORA-wrapper {
     position: absolute;
-    width: 123px;
-    height: 123px;
-    top: 330px;
-    left: 114px;
+    top: 360px;
+    left: 260px;
+    width: auto;
+    width: auto;
     
   }
 
-
-
-
-
-  
   .frame .monreve-wrapper {
     position: absolute;
-    width: 123px;
-    height: 123px;
-    top: 161px;
-    left: 870px;
+    top: 360px;
+    left: 140px;
+    width: auto;
+    width: auto;
     
   }
   
   .frame .corporacion-castle-wrapper {
     position: absolute;
-    top: 161px;
-    left: 702px;
-    width: 123px;
-    height: 123px;
+    top: 360px;
+    left: 20px;
+    width: auto;
+    width: auto;
     
   }
+
+
   
   .frame .cafe-gourmet-wrapper {
     position: absolute;
-    top: 161px;
-    left: 534px;
-    width: 123px;
-    height: 123px;
+    top: 240px;
+    left: 260px;
+    width: auto;
+    width: auto;
     
   }
   
   .frame .tijerazo-wrapper {
     position: absolute;
-    top: 161px;
-    left: 366px;
-    width: 123px;
-    height: 123px;
+    top: 240px;
+    left: 140px;
+    width: auto;
+    width: auto;
     
   }
   
   .frame .olymp-finest-flavors-wrapper {
     position: absolute;
-    top: 161px;
-    left: 198px;
-    width: 123px;
-    height: 123px;
+    top: 240px;
+    left: 20px;
+    width: auto;
+    width: auto;
     
   }
   
+
+
+
   .frame .todo-hogar-wrapper {
     position: absolute;
-    top: 161px;
-    left: 30px;
-    width: 123px;
-    height: 123px;
+    top: 120px;
+    left: 260px;
+    width: auto;
+    width: auto;
     
   }
-  
-
-
-
 
   .frame .overlap-4 {
     position: absolute;
-    top: 0;
-    left: 786px;
-    width: 123px;
-    height: 123px;
+    top: 120px;
+    left: 140px;
+    width: auto;
+    width: auto;
     
   }
  
   .frame .overlap-group-2 {
     position: absolute;
-    top: 0;
-    left: 618px;
-    width: 123px;
-    height: 123px;
-    
+    top: 120px;
+    left: 20px;
+    width: auto;
+    width: auto;
+  
   }
+
+
+
+
 
   
   .frame .sal-condimentos-wrapper {
     position: absolute;
     top: 0;
-    left: 450px;
-    width: 123px;
-    height: 123px;
+    left: 260px;
+    width: auto;
+    width: auto;
     
   }
   
   .frame .ouzo-barbayanni-wrapper {
     position: absolute;
     top: 0;
-    left: 282px;
-    width: 123px;
-    height: 123px;
+    left: 140px;
+    width: auto;
+    width: auto;
     
   }
   
   .frame .a-v-ingenieria-c-a-wrapper {
     position: absolute;
     top: 0;
-    left: 114px;
-    width: 123px;
-    height: 123px;
+    left: 20px;
+    width: auto;
+    width: auto;
     
   }
 
@@ -565,7 +569,7 @@
   /*footer*/
   .frame .footer-wrapper {
     height: 194px;
-    top: 2920px;
+    top: 3120px;
     overflow: hidden;
     position: absolute;
     width: 100%;

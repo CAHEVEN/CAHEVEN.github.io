@@ -19,6 +19,10 @@
   }*/
 
   
+  #myCarousel{
+    width: 300px;
+    height: 300px;
+  }
 
 
   /*banner*/
@@ -400,6 +404,7 @@
   
   /*afiliados*/
   #carouselExampleControls{
+    display: block;
     /*display: none;*/
   }
 

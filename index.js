@@ -1,4 +1,9 @@
 function bigImg(x) {
+  
+  if (isSmallScreen()) {
+    return; 
+  }
+
   x.style.height = "150px";
   x.style.width = "150px";
   x.style.top= "-10px";
@@ -18,6 +23,11 @@ function bigImg(x) {
 }
 
 function normalImg(x) {
+
+  if (isSmallScreen()) {
+    return; 
+  }
+
   x.style.height = "123px";
   x.style.width = "123px";
   x.style.top= "0px";
@@ -31,6 +41,28 @@ function normalImg(x) {
   }
 }
 
+
+function isMobileDevice() {
+  const userAgent = navigator.userAgent || navigator.vendor || window.opera;
+  
+  // Checks for common mobile/tablet keywords
+  if (
+    /android/i.test(userAgent) ||
+    /iphone|ipod|ipad/i.test(userAgent) ||
+    /windows phone/i.test(userAgent) ||
+    /mobi/i.test(userAgent) // General mobile indicator
+  ) {
+    return true;
+  }
+
+  return false;
+}
+
+
+function isSmallScreen() {
+  // Checks for screens with a maximum width of 768 pixels
+  return window.matchMedia("(max-width: 768px)").matches;
+}
 
 
 
