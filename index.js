@@ -8,6 +8,7 @@ function bigImg(x) {
   x.style.width = "150px";
   x.style.top= "-10px";
   x.style.left= "-15px";
+  
 
   if (x.children.length != 0) {
     //console.log('Element has children');
