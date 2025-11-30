@@ -4,7 +4,10 @@
       margin: 0;
       padding: 0;
       border: 0;
+<<<<<<< HEAD
       
+=======
+>>>>>>> ecc1dbe0dc39f8bf4c29e4e8d908dde0d2e27568
   }
 
   .frame {
@@ -18,6 +21,7 @@
   .frame-tablet{
     display: none;
   }
+
 
 
   /*banner*/
