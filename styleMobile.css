@@ -1,5 +1,4 @@
-
- @media only screen and (max-width:768px){
+@media only screen and (max-width:768px){
 
   *{
       margin: 0;
@@ -19,7 +18,7 @@
     display: none;
   }
 
-  
+
 
   /*banner*/
   .frame .banner-wrapper {
@@ -29,8 +28,8 @@
     width: 100%;
     left: 0;
   }
-  
-  
+
+
   .frame .background {
     position: absolute;
     width: 100%;
@@ -39,21 +38,21 @@
     left: 0;
     object-fit: cover;
   }
-  
-  
+
+
   .frame .bienvenidos-a-wrapper {
     position: relative;
     width: 100%;
     height: 378px;
     top: 121px;
-    background-image: url(./img/rectangle-122.svg);
+    background-image: url(../assets/img/rectangle-122.svg);
     background-size: fit-content;
   }
-  
+
   .frame .bienvenidos-a {
     display: none;
   }
-  
+
 
   .frame .bienvenidos-m{
     display: block;
@@ -72,15 +71,15 @@
     line-height: normal;
     opacity: 10;
     font-weight: 500;
-    
+
   }
-  
+
 
 
   .frame .text-wrapper-11 {
     font-weight: 500;
   }
-  
+
   .frame .text-wrapper-12 {
     font-family: "Lato-SemiBold", Helvetica;
     font-weight: 600;
@@ -93,13 +92,13 @@
     justify-content: center;
     width: 100%;
   }
-  
+
   .header .overlap-wrap {
     overflow: hidden;
     width: 100%;
     height: 100px;
   }
-  
+
   .header .rectangle-menu {
     position: absolute;
     width: 100%;
@@ -108,7 +107,7 @@
     left: 0;
     background-color: #3282ec;
   }
-  
+
   .header .logo-camara {
     display: none;
   }
@@ -123,11 +122,11 @@
   }
 
 
-  
+
   .header .FEDEUROPA {
     background-color: transparent;
   }
-  
+
   .header .logo-fedeuropa {
     position: absolute;
     width: 81px;
@@ -151,45 +150,45 @@
     text-align: center;
     letter-spacing: 0;
     line-height: 1.5;
-    
-  
+
+
 
   }
 
-  
+
   .header .menu {
     display: none;
 
   }
 
-  
+
 
   /*mision*/
 
   .frame .mision-wrapper {
-    height: 770px;
+    height: 760px;
     top: 720px;
     background-color: #fffcf0;
     position: absolute;
     width: 100%;
     left: 0;
   }
-  
+
   .frame .mision {
     position: relative;
     margin: auto;
     width: 100%;
-    height: 750px;
+    height: 680px;
     top: 50px;
   }
-  
+
   .frame .overlap-mision {
     position: relative;
     width: 100%;
-    height: 720px;
+    height: 690px;
     background-color: #0505061a;
   }
-  
+
   .frame .subTitulo-1 {
     position: absolute;
     width: 100%;
@@ -204,7 +203,7 @@
     line-height: normal;
     text-align: center;
   }
-  
+
   .frame .text-1{
     position: absolute;
     width: calc(100% - 40px);
@@ -217,12 +216,12 @@
     letter-spacing: 0;
     line-height: normal;
   }
-  
+
   hr {
-    border: none; 
-    height: 1px;  
-    background-color: #000000; 
-    color: #000000;   
+    border: none;
+    height: 1px;
+    background-color: #000000;
+    color: #000000;
   }
 
   .frame .line {
@@ -241,10 +240,10 @@
     position: absolute;
     width: 100%;
     height: 720px;
-    top: 1490px;
+    top: 1480px;
     left: 0;
   }
-  
+
   .frame .vision-wrapper{
     position: absolute;
     width: 100%;
@@ -253,7 +252,7 @@
     left: 0;
     background-color: #fffcf0;
   }
-  
+
   .frame .vision {
     position: relative;
     margin: auto;
@@ -261,18 +260,18 @@
     height: 601px;
     top: 59px;
   }
-  
+
   .frame .overlap-vision {
     position: relative;
     width:100%;
     height: 601px;
     background-color: #0505061a;
   }
-  
+
   .frame .line-2 {
     position: absolute;
     width: 100%;
-    top: 70px;
+    top: 90px;
     left: 0;
   }
 
@@ -281,7 +280,7 @@
 
   }
 
-  
+
   /*afiliados*/
   .frame .overlap-group-afiliados {
     height: 920px;
@@ -290,14 +289,14 @@
     width: 100%;
     left: 0;
   }
-  
+
   .frame .afiliados-wrapper {
     position: relative;
     height: 921px;
     top: -1px;
     background-color: #fffcf0;
   }
-  
+
   .frame .afiliados {
     position: relative;
     margin: auto;
@@ -305,14 +304,14 @@
     height: 599px;
     top: 41px;
   }
-  
+
   .frame .overlap-2 {
     position: relative;
     width: 100%;
     height: 599px;
     background-color: #fffcf0;
   }
-  
+
   .frame .div-wrapper {
     position: absolute;
     width: 100%;
@@ -340,7 +339,7 @@
 
   #carouselExampleControls{
     display: none;
-    
+
     /*position: absolute;
     top: 2346px;*/
   }
@@ -375,7 +374,7 @@
   }
 
 
-  
+
   .icon-box-Big{
     position: inherit;
     width: 150px;
@@ -388,27 +387,31 @@
 
   }
 
-  
+
   .frame .img-Big{
     width: 120px;
     height: 120px;
   }
 
-  
+  /*
+  .group-2 div div:hover{
+    width: 120px;
+    height: 120px;
+  }
+  */
 
 
 
-  
 
   .frame .hilos-cronos-CA-wrapper {
     position: absolute;
     top: 600px;
-    left: calc(50% - 50px);
+    left: 140px;
     width: auto;
     width: auto;
   }
 
-  
+
 
 
 
@@ -417,29 +420,29 @@
   .frame .overlap-3 {
     position: absolute;
     top: 480px;
-    left: calc(50% + 70px);
+    left: 260px;
     width: auto;
     width: auto;
   }
-  
+
   .frame .COSECHA-PERISSOS-wrapper {
     position: absolute;
     top: 480px;
-    left: calc(50% - 50px);
+    left: 140px;
     width: auto;
     width: auto;
   }
-  
+
   .frame .logo-aegean-marine-wrapper {
     position: absolute;
     top: 480px;
-    left: calc(50% - 170px);
+    left: 20px;
     width: auto;
     width: auto;
   }
-  
-  
-  
+
+
+
 
 
 
@@ -447,119 +450,119 @@
   .frame .COMERCIALIZADORA-wrapper {
     position: absolute;
     top: 360px;
-    left: calc(50% + 70px);
+    left: 260px;
     width: auto;
     width: auto;
-    
+
   }
 
   .frame .monreve-wrapper {
     position: absolute;
     top: 360px;
-    left: calc(50% - 50px); 
+    left: 140px;
     width: auto;
     width: auto;
-    
+
   }
-  
+
   .frame .corporacion-castle-wrapper {
     position: absolute;
     top: 360px;
-    left: calc(50% - 170px);
+    left: 20px;
     width: auto;
     width: auto;
-    
+
   }
 
 
-  
+
   .frame .cafe-gourmet-wrapper {
     position: absolute;
     top: 240px;
-    left: calc(50% + 70px);;
+    left: 260px;
     width: auto;
     width: auto;
-    
+
   }
-  
+
   .frame .tijerazo-wrapper {
     position: absolute;
     top: 240px;
-    left: calc(50% - 50px); 
+    left: 140px;
     width: auto;
     width: auto;
-    
+
   }
-  
+
   .frame .olymp-finest-flavors-wrapper {
     position: absolute;
     top: 240px;
-    left: calc(50% - 170px);
+    left: 20px;
     width: auto;
     width: auto;
-    
+
   }
-  
+
 
 
 
   .frame .todo-hogar-wrapper {
     position: absolute;
     top: 120px;
-    left: calc(50% + 70px); 
+    left: 260px;
     width: auto;
     width: auto;
-    
+
   }
 
   .frame .overlap-4 {
     position: absolute;
     top: 120px;
-    left: calc(50% - 50px); 
+    left: 140px;
     width: auto;
     width: auto;
-    
+
   }
- 
+
   .frame .overlap-group-2 {
     position: absolute;
     top: 120px;
-    left: calc(50% - 170px);
+    left: 20px;
     width: auto;
     width: auto;
-  
+
   }
 
 
 
 
 
-  
+
   .frame .sal-condimentos-wrapper {
     position: absolute;
     top: 0;
-    left: calc(50% + 70px); /*260px;*/
+    left: 260px;
     width: auto;
     width: auto;
-    
+
   }
-  
+
   .frame .ouzo-barbayanni-wrapper {
     position: absolute;
     top: 0;
-    left: calc(50% - 50px); /*140px;*/
+    left: 140px;
     width: auto;
     width: auto;
-    
+
   }
-  
+
   .frame .a-v-ingenieria-c-a-wrapper {
     position: absolute;
     top: 0;
-    left: calc(50% - 170px); /*20px*/
+    left: 20px;
     width: auto;
     width: auto;
-    
+
   }
 
 
@@ -573,13 +576,13 @@
     width: 100%;
     left: 0;
   }
-  
+
   .frame .overlap {
     position: relative;
     height: 721px;
     top: -1px;
   }
-  
+
   .frame .footer-rectangle {
     position: absolute;
     width: 100%;
@@ -597,7 +600,7 @@
     left: 0;
     background-color: #bfbfbf;
   }
-  
+
   .frame .footer {
     position: relative;
     margin: auto;
@@ -606,7 +609,7 @@
     top: 0;
     background-color: transparent;
   }
-  
+
   .frame .logo-camara-sin {
     position: absolute;
     width: 66px;
@@ -614,19 +617,19 @@
     top: 26px;
     left: 10px;
   }
-  
+
   .frame .c-mara-de-comercio {
     display: none;
   }
-  
+
   .frame .text-wrapper {
     display:none;
   }
-  
+
   .frame .text-wrapper-2 {
     display:none;
   }
-  
+
   .frame .text-wrapper-3 {
     display:none;
   }
@@ -646,7 +649,7 @@
     text-decoration: underline;
     white-space: nowrap;
   }
-  
+
   .frame .p {
     position: absolute;
     top: 27px;
@@ -660,21 +663,21 @@
     line-height: normal;
     white-space: nowrap;
   }
-  
+
 
 
   .frame .email {
     display: none;
   }
-  
+
   .frame .image {
     display: none;
   }
-  
+
   .frame .img {
     display: none;
   }
-  
+
   .frame .image-2 {
     position: absolute;
     width: 19px;
@@ -683,7 +686,7 @@
     left: calc(50% - 66px);
     object-fit: cover;
   }
-  
+
   .frame .dev-group {
     position: relative;
     margin: auto;
@@ -691,7 +694,7 @@
     height: 22px;
     top: 30px;
   }
-  
+
   .frame .external-link-symbol {
     position: inherit;
     width: 8px;
@@ -700,7 +703,7 @@
     bottom: 15px;
     object-fit: cover;
   }
-  
+
   .frame .dev-overlap-group {
     position: absolute;
     width: 248px;
@@ -708,7 +711,7 @@
     top: 0;
     left: 0;
   }
-  
+
   .frame .hd-black-linkedin-in {
     position: absolute;
     width: 12px;
@@ -718,7 +721,7 @@
     bottom: 1px;
     object-fit: cover;
   }
-  
+
   .frame .desarrollado-por {
     position: absolute;
     width: 246px;
@@ -731,25 +734,18 @@
     letter-spacing: 0;
     line-height: normal;
   }
-  
+
   .frame .span {
     font-weight: 500;
     color: #000000;
   }
-  
+
   .frame .text-dev{
     font-family: "Lato-Bold", Helvetica;
     font-weight: 700;
     color: #000000;
   }
 
-    
-
-    
-
-    
-
-
 
 }
- 
+
