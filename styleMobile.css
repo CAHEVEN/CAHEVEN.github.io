@@ -37,6 +37,10 @@
     top: 100px;
     left: 0;
     object-fit: cover;
+
+    background-image: url(./img/background-Resize-Mobile.PNG);
+    background-size: fit-content;
+
   }
 
 
